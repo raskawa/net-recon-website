@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net-Recon | Software Ventures & Products</title>
+    <meta name="description" content="Net-Recon invests in and builds early-stage software companies. Based in Austin, Texas.">
+    <link rel="stylesheet" href="https://unpkg.com/primeicons/primeicons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="logo.png" alt="Net-Recon" height="36">
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <i class="pi pi-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <img src="logo.png" alt="Net-Recon" class="hero-logo">
+            <h1>Building & Investing in<br><span class="accent">Software That Matters</span></h1>
+            <p class="hero-sub">We partner with founders to build, invest in, and scale early-stage software companies solving real-world problems.</p>
+            <div class="hero-ctas">
+                <a href="#portfolio" class="btn btn-primary">Our Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="pillars">
+                <div class="pillar">
+                    <i class="pi pi-wrench"></i>
+                    <h3>Build</h3>
+                    <p>We create products from the ground up — from architecture to launch — turning ideas into production software.</p>
+                </div>
+                <div class="pillar">
+                    <i class="pi pi-dollar"></i>
+                    <h3>Invest</h3>
+                    <p>We provide seed and early-stage capital to software companies with strong founders and clear market fit.</p>
+                </div>
+                <div class="pillar">
+                    <i class="pi pi-chart-line"></i>
+                    <h3>Advise</h3>
+                    <p>With 25+ years of enterprise software experience, we help portfolio companies scale product, technology, and go-to-market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Products & Investments</h2>
+            <p class="section-sub">A portfolio of software companies we've built, invested in, and helped grow.</p>
+
+            <!-- Portfolio Index -->
+            <div class="portfolio-index">
+                <a href="#card-mygardenvault" class="index-chip built">MyGardenVault</a>
+                <a href="#card-livingrealms" class="index-chip advised">Living Realms</a>
+                <a href="#card-slingshot" class="index-chip advised">Slingshot Aerospace</a>
+                <a href="#card-alertmedia" class="index-chip advised">AlertMedia</a>
+                <a href="#card-monsarrat" class="index-chip invested">Monsarrat Games</a>
+                <a href="#card-captain" class="index-chip invested">Captain Experiences</a>
+                <a href="#card-startplaying" class="index-chip invested">StartPlaying</a>
+                <a href="#card-voyceme" class="index-chip invested">VoyceMe</a>
+            </div>
+
+            <!-- Portfolio Cards -->
+            <div class="portfolio-grid">
+
+                <!-- MyGardenVault -->
+                <div class="portfolio-card" id="card-mygardenvault">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🌱</span>
+                        </div>
+                        <span class="card-tag built">Built</span>
+                    </div>
+                    <h3><a href="https://www.mygardenvault.com" target="_blank" rel="noopener">MyGardenVault</a></h3>
+                    <p class="card-type">SaaS / Consumer / Agriculture</p>
+                    <p class="card-desc">A multi-tenant gardening management platform. Track plants from seed to harvest, manage visual garden layouts, maintain a living journal, and connect to a community-curated plant reference library. Built on Azure with PrimeVue and .NET.</p>
+                    <a href="https://www.mygardenvault.com" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> mygardenvault.com
+                    </a>
+                </div>
+
+                <!-- Living Realms -->
+                <div class="portfolio-card" id="card-livingrealms">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🎮</span>
+                        </div>
+                        <span class="card-tag advised">Helped Build</span>
+                    </div>
+                    <h3><a href="https://www.playlivingrealms.com" target="_blank" rel="noopener">Living Realms</a></h3>
+                    <p class="card-type">Gaming / TTRPG / SaaS</p>
+                    <p class="card-desc">A tabletop RPG platform bringing immersive digital experiences to the TTRPG community. Invested in and supported by Net-Recon with product strategy, technical architecture, and cloud infrastructure.</p>
+                    <a href="https://www.playlivingrealms.com" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> playlivingrealms.com
+                    </a>
+                </div>
+
+                <!-- Slingshot Aerospace -->
+                <div class="portfolio-card" id="card-slingshot">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🚀</span>
+                        </div>
+                        <span class="card-tag advised">Helped Build</span>
+                    </div>
+                    <h3><a href="https://www.slingshotaerospace.com" target="_blank" rel="noopener">Slingshot Aerospace</a></h3>
+                    <p class="card-type">Space Technology / Defense / Enterprise</p>
+                    <p class="card-desc">The leading provider of satellite tracking, space traffic coordination, and space modeling and simulation solutions. Co-founded by David Godwin, Slingshot serves government and commercial customers worldwide, making space safe, sustainable, and secure.</p>
+                    <a href="https://www.slingshotaerospace.com" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> slingshotaerospace.com
+                    </a>
+                </div>
+
+                <!-- AlertMedia -->
+                <div class="portfolio-card" id="card-alertmedia">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🔔</span>
+                        </div>
+                        <span class="card-tag advised">Helped Build</span>
+                    </div>
+                    <h3><a href="https://www.alertmedia.com" target="_blank" rel="noopener">AlertMedia</a></h3>
+                    <p class="card-type">Enterprise / Emergency Communications / SaaS</p>
+                    <p class="card-desc">A leading emergency communication and threat intelligence platform helping organizations protect their people. AlertMedia enables businesses to send mass notifications, monitor threats, and maintain duty of care for employees worldwide.</p>
+                    <a href="https://www.alertmedia.com" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> alertmedia.com
+                    </a>
+                </div>
+
+                <!-- Monsarrat Games -->
+                <div class="portfolio-card" id="card-monsarrat">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🎲</span>
+                        </div>
+                        <span class="card-tag invested">Invested</span>
+                    </div>
+                    <h3><a href="https://monsarrat.com/" target="_blank" rel="noopener">Monsarrat Games</a></h3>
+                    <p class="card-type">Gaming / Mobile / Entertainment</p>
+                    <p class="card-desc">A game studio creating engaging mobile and online gaming experiences. Monsarrat develops innovative games that bring players together through creative gameplay and social interaction.</p>
+                    <a href="https://monsarrat.com/" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> monsarrat.com
+                    </a>
+                </div>
+
+                <!-- Captain Experiences -->
+                <div class="portfolio-card" id="card-captain">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🎣</span>
+                        </div>
+                        <span class="card-tag invested">Invested</span>
+                    </div>
+                    <h3><a href="https://captainexperiences.com/" target="_blank" rel="noopener">Captain Experiences</a></h3>
+                    <p class="card-type">Marketplace / Outdoors / Consumer</p>
+                    <p class="card-desc">The leading marketplace for booking guided fishing and hunting trips. Captain Experiences connects outdoor enthusiasts with top-rated guides across North America, making it easy to find and book unforgettable adventures.</p>
+                    <a href="https://captainexperiences.com/" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> captainexperiences.com
+                    </a>
+                </div>
+
+                <!-- StartPlaying -->
+                <div class="portfolio-card" id="card-startplaying">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🎭</span>
+                        </div>
+                        <span class="card-tag invested">Invested</span>
+                    </div>
+                    <h3><a href="https://startplaying.games/" target="_blank" rel="noopener">StartPlaying</a></h3>
+                    <p class="card-type">Marketplace / Gaming / TTRPG</p>
+                    <p class="card-desc">The marketplace for finding and booking professional game masters for tabletop RPG sessions. StartPlaying connects players with GMs for D&D, Pathfinder, and other systems — making it easy to jump into a great game.</p>
+                    <a href="https://startplaying.games/" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> startplaying.games
+                    </a>
+                </div>
+
+                <!-- VoyceMe -->
+                <div class="portfolio-card" id="card-voyceme">
+                    <div class="card-header">
+                        <div class="card-logo-area">
+                            <span class="card-emoji">🎙️</span>
+                        </div>
+                        <span class="card-tag invested">Invested</span>
+                    </div>
+                    <h3><a href="https://voyce.me" target="_blank" rel="noopener">VoyceMe</a></h3>
+                    <p class="card-type">Creator Economy / Social / Entertainment</p>
+                    <p class="card-desc">A platform empowering creators to share stories through comics, novels, and multimedia content. VoyceMe provides tools for creators to publish, monetize, and grow their audiences in the digital storytelling space.</p>
+                    <a href="https://voyce.me" target="_blank" rel="noopener" class="card-link">
+                        <i class="pi pi-external-link"></i> voyce.me
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">About Net-Recon</h2>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Leadership</h3>
+                    <h4>David Godwin</h4>
+                    <p class="about-role">Founder & Managing Partner</p>
+                    <p>David is a technologist and entrepreneur with more than 25 years of experience productizing enterprise-level solutions. He is the Co-founder, President and Chairman of the Board at Slingshot Aerospace and a partner at ATX Seed Ventures.</p>
+                    <p>A seasoned startup advisor, David has guided several businesses to product marketability and has had multiple successful exits from venture-backed companies. He specializes in architecting cloud-driven applications, data platforms, and analytics solutions.</p>
+                    <p>David is from Texas and is active in his community, having served on several non-profit boards in Austin including Heart House Austin and the Star of Texas Fair and Rodeo.</p>
+                </div>
+                <div class="about-austin">
+                    <h3>Based in Austin, Texas</h3>
+                    <p>Net-Recon is headquartered in Austin — one of America's fastest-growing technology hubs. Austin's vibrant startup ecosystem, world-class universities, and culture of innovation make it the ideal home for a software venture firm.</p>
+                    <p>The city's deep talent pool in software engineering, data science, and product design — combined with Texas's business-friendly environment — gives our portfolio companies access to the resources they need to scale.</p>
+                    <div class="austin-badge">
+                        <i class="pi pi-map-marker"></i>
+                        <span>Austin, TX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-sub">Interested in partnering with Net-Recon? Have a product idea or looking for investment? We'd love to hear from you.</p>
+
+            <div class="contact-form-wrap">
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="you@company.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="investment">Investment Inquiry</option>
+                            <option value="partnership">Partnership Opportunity</option>
+                            <option value="product">Product Idea</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or idea..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="pi pi-send"></i> Send Message
+                    </button>
+                    <p class="form-note" id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Net-Recon" height="28">
+                    <p>Software Ventures & Products</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Net-Recon. All rights reserved. Austin, Texas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sticky nav
+        window.addEventListener('scroll', () => {
+            document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                const el = document.querySelector(a.getAttribute('href'));
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                document.querySelector('.nav-links').classList.remove('open');
+            });
+        });
+
+        // Contact form placeholder
+        function handleSubmit(e) {
+            e.preventDefault();
+            document.getElementById('form-status').textContent = 'Thank you! Your message has been received. We\'ll be in touch soon.';
+            document.getElementById('form-status').style.color = '#4caf50';
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
